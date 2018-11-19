@@ -9,9 +9,52 @@
 
 
 
-
-body	{
-	background-color:#EBC79E;  /*This will give your page a background color if your link is correct */
-	}
-
-
+/* COLORS: 
+Navy Blue - #3B5998 
+Light Blue - #8B9DC3 
+Grey - #F7F7F7 
+White - #FFFFFF
+*/
+body {
+	background-color: #F7F7F7;
+}
+header {
+	width: 1200px;
+	height: 125px;
+}
+nav {
+	width: 1200px;
+	height: 100px;
+}
+main {
+	width: 1200px;
+	height: auto;
+}
+footer {
+	width: 1200px;
+	height: 125px;
+}
+h1 {
+	font-family: Impact;
+	font-size: 32px;
+	color: #000000;
+	text-align: left;
+}
+h2 {
+	font-family: Impact;
+	font-size: 24px;
+	color: #000000;
+	text-align: left;
+}
+h3 {
+	font-family: Impact;
+	font-size: 18px;
+	color: #000000;
+	text-align: left;
+}
+p {
+	font-family: Impact;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
