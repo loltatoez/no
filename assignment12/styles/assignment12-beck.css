@@ -11,24 +11,33 @@ White - #FFFFFF
 */
 body {
 	background-color: #F7F7F7;
+	
 }
 header {
 	width: 1200px;
 	height: 125px;
 	background-image: url("../images/logo.jpg"); /* Logo */
+	margin-left: auto;
+	margin-right: auto;
 }
 nav {
 	width: 1200px;
 	height: 50px;
 	background-color: #8B9DC3;
+	margin-left: auto;
+	margin-right: auto;
 }
 main {
 	width: 1200px;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 footer {
 	width: 1200px;
 	height: 125px;
+	margin-left: auto;
+	margin-right: auto;
 }
 h1 {
 	font-family: Impact;
@@ -53,4 +62,27 @@ p {
 	font-size: 16px;
 	color: #000000;
 	text-align: left;
+}
+#navContent {
+	width: 1200px;
+	height: 50px;
+	background-color: #8B9DC3;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#headerContent {
+	width: 1200px;
+	height: 125px;
+}
+#mainContent {
+	width: 1200px;
+	height: auto;
+}
+#footerContent {
+	width: 1200px;
+	height: 125px;
+}
+.nav {
+	font-size: 16px;
 }
