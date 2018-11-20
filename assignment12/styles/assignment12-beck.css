@@ -90,6 +90,6 @@ nav .link {
 	color: #3B5998;
 	
 }
-nav .link:active {
+nav .link:active, nav .link:hover {
 	font-weight: bold;
 }
