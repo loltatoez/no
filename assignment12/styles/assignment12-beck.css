@@ -3,12 +3,6 @@
 /* Created for Facebook Redesign */
 /* Created by Alex Beck */
 
-
-
-
-
-
-
 /* COLORS: 
 Navy Blue - #3B5998 
 Light Blue - #8B9DC3 
@@ -21,10 +15,12 @@ body {
 header {
 	width: 1200px;
 	height: 125px;
+	background-image: url("../images/logo.jpg"); /* Logo */
 }
 nav {
 	width: 1200px;
-	height: 100px;
+	height: 50px;
+	background-color: #8B9DC3;
 }
 main {
 	width: 1200px;
