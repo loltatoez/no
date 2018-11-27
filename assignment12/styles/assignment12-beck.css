@@ -14,59 +14,60 @@ body {
 	
 }
 header {
-	width: 1200px;
+	width: 1000px;
 	height: 125px;
 	background-image: url("../images/logo.jpg"); /* Logo */
+	background-color: #F7F7F7;
 	margin-left: auto;
 	margin-right: auto;
 }
 nav {
-	width: 1200px;
+	width: 1000px;
 	height: 50px;
 	background-color: #8B9DC3;
 	margin-left: auto;
 	margin-right: auto;
 }
 main {
-	width: 1200px;
+	width: 1000px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #F7F7F7;
 }
 footer {
-	width: 1200px;
+	width: 1000px;
 	height: 125px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #3B5998;
+	background-color: #8B9Dc3;
 }
 h1 {
-	font-family: Impact;
+	font-family: inherit, serif;
 	font-size: 32px;
 	color: #000000;
 	text-align: left;
 }
 h2 {
-	font-family: Impact;
+	font-family: inherit, serif;
 	font-size: 24px;
 	color: #000000;
 	text-align: left;
 }
 h3 {
-	font-family: Impact;
+	font-family: inherit, serif;
 	font-size: 18px;
 	color: #000000;
 	text-align: left;
 }
 p {
-	font-family: Impact;
+	font-family: "myriad pro", serif;
 	font-size: 16px;
 	color: #000000;
 	text-align: left;
 }
 #navContent {
-	width: 1200px;
+	width: 1000px;
 	height: 50px;
 	background-color: #8B9DC3;
 	margin-left: auto;
@@ -74,22 +75,43 @@ p {
 	text-align: center;
 }
 #headerContent {
-	width: 1200px;
+	width: 1000px;
 	height: 125px;
 }
 #mainContent {
-	width: 1200px;
+	width: 1000px;
 	height: auto;
 }
 #footerContent {
-	width: 1200px;
+	width: 1000px;
 	height: 125px;
 }
-nav .link {
+.link {
 	font-size: 16px;
 	color: #3B5998;
+	font-family: "myriad pro", serif;
 	
 }
-nav .link:active, nav .link:hover {
+.link:active, .link:hover {
 	font-weight: bold;
+}
+.nav { /* navDiv1, navDiv2, navDiv3, navDiv4, navDiv5 */
+	display: inline;
+}
+#secondaryNavBar {
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: 50px;
+	display: block;
+}
+#profilePhoto {
+	display: inline;
+}
+#secondaryNavBarContainer {
+	width: 1000px;
+	height: 150px;
+	margin-bottom: 50px;
+}
+.secondaryNavBarLink {
+	display: inline;
 }
