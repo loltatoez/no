@@ -115,3 +115,22 @@ p {
 .secondaryNavBarLink {
 	display: inline;
 }
+.smallHr {
+	width: 200px;
+	margin-left: 0px;
+	
+}
+.vr {
+	margin-left: 205px;
+	width: 1px;
+	height: 200px;
+	/* margin: 0px 205px 0px 205px; */
+	text-align: right;
+}
+.aboutContent {
+	display: block;
+	
+}
+#marStatHr {
+	margin-bottom: -100px;
+}
