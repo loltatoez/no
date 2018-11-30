@@ -92,7 +92,7 @@ p {
 	font-family: "myriad pro", serif;
 	
 }
-.link:active, .link:hover {
+.link:hover, .link:active, .link:visited {
 	font-weight: bold;
 }
 .nav { /* navDiv1, navDiv2, navDiv3, navDiv4, navDiv5 */
@@ -120,17 +120,14 @@ p {
 	margin-left: 0px;
 	
 }
-.vr {
-	margin-left: 205px;
-	width: 1px;
-	height: 200px;
-	/* margin: 0px 205px 0px 205px; */
-	text-align: right;
-}
 .aboutContent {
 	display: block;
 	
 }
-#marStatHr {
-	margin-bottom: -100px;
+#page {
+	background-color: #F7F7F7;
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
