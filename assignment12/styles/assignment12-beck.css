@@ -130,4 +130,13 @@ p {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+}#login {
+	background-color: #F7F7F7;
+	height: 75px;
+	width: 200px;
+	float: right;
+}
+#login p {
+	color: #000000;
+	font-size: smaller;
 }
